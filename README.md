@@ -1,3 +1,2 @@
 # university-management-system
-
-`[embed]overview.pdf[/embed]`
+![alt text](overview.pdf)
