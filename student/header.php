@@ -42,27 +42,21 @@ input::-webkit-inner-spin-button {
       <div class="sidebar-wrapper">
         <ul class="nav for-active">
           <li class="nav-item">
-            <a class="nav-link" href="admindash.php">
+            <a class="nav-link" href="studentdash.php">
               <i class="material-icons">dashboard</i>
               <p>Dashboard</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="addstudent.php">
-              <i class="material-icons">add_circle</i>
-              <p>INSERT STUDENTS</p>
+            <a class="nav-link" href="profile.php?sid=<?php echo $_SESSION['password'] ?>">
+              <i class="material-icons">person</i>
+              <p>Profile</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="updatestudent.php">
-              <i class="material-icons">update</i>
-              <p>UPDATE STUDENTS</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="deletestudent.php">
-              <i class="material-icons">delete</i>
-              <p>DELETE STUDENTS</p>
+            <a class="nav-link" href="updateprofile.php?sid=<?php echo $_SESSION['password'] ?>">
+              <i class="material-icons">edit</i>
+              <p>Update Profile</p>
             </a>
           </li>
           <!-- your sidebar here -->
