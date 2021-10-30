@@ -5,6 +5,7 @@ if(isset($_SESSION['password']))
     header("location:admin/admindash.php");
 }
 ?>
+
     <head>
         <title>
            Admin Login
