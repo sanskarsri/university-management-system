@@ -5,6 +5,7 @@ if(isset($_SESSION['password']))
     header("location:student/studentdash.php");
 }
 ?>
+
 <html>
     <head>
         <title>
