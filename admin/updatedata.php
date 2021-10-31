@@ -22,6 +22,7 @@
         <script>
             alert('Data Updated SUCCESSFUL');
             window.open("updateform.php?sid=<?php echo $id;?>","_self");
+            
     </script>
     <?php   
     } 
